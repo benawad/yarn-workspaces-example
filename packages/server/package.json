@@ -6,5 +6,8 @@
   "dependencies": {
     "@walnut/common": "1.0.0",
     "graphql-yoga": "^1.14.7"
+  },
+  "scripts": {
+    "test": "echo testing server with version: $npm_package_version"
   }
 }
