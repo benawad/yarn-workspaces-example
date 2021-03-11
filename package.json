@@ -8,7 +8,7 @@
     "test": "lerna run test --since",
     "new-version": "lerna version --conventional-commits --yes",
     "publish:ci": "lerna publish --yes --conventionalCommits patch",
-    "publish:ci-prerelease": "lerna publish --yes --canary --preid elasticIns patch"
+    "publish:ci-prerelease": "lerna publish --yes --canary --preid elasticIns --npm-tag elasticIns patch"
   },
   "devDependencies": {
     "lerna": "^3.10.6"
