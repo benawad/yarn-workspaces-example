@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@yanivtestdemo/common": "^1.0.1",
+    "@yanivtestdemo/common": "^2.0.0",
     "graphql-yoga": "^1.14.7"
   },
   "scripts": {
