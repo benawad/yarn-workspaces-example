@@ -6,7 +6,7 @@
   "private": false,
   "dependencies": {
     "graphql-yoga": "^1.14.7",
-    "yanivtestdemo-server": "^2.0.6"
+    "yanivtestdemo-common": "^2.0.6"
   },
   "scripts": {
     "test": "echo testing server with version: $npm_package_version"
