@@ -12,5 +12,6 @@
   "devDependencies": {
     "lerna": "^3.10.6"
   },
-  "name": "yarn-workspaces-example"
+  "name": "yarn-workspaces-example",
+  "version": "0.0.0"
 }
