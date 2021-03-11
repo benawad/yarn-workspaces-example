@@ -1,0 +1,38 @@
+name: Build
+
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      mongo:
+        image: mongo
+        ports:
+          - 27017:27017
+      neo4j:
+        image: neo4j:4.2.3
+        ports:
+          - 7474:7474
+          - 11011:7687
+        env:
+          NEO4J_AUTH: neo4j/test
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Fetch all history for all tags and branches
+        run: git fetch
+
+      - name: Install Dependencies
+        run: yarn
+
+      - name: Build
+        run: yarn build
+
+      - name: Test
+        run: yarn test:ci
