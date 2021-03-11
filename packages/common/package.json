@@ -1,5 +1,5 @@
 {
-  "name": "@yanivtestdemo/common",
+  "name": "yanivtestdemo-common",
   "version": "2.0.3",
   "main": "index.js",
   "license": "MIT",

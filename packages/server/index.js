@@ -1,4 +1,4 @@
-const commonFunction = require("@yanivtestdemo/common");
+const commonFunction = require("yanivtestdemo-common");
 
 commonFunction();
 commonFunction();
