@@ -7,8 +7,8 @@
   "scripts": {
     "test": "lerna run test --since",
     "new-version": "lerna version --conventional-commits --yes",
-    "publish": "lerna publish",
-    "publish-prerelease": "lerna publish"
+    "publish:ci": "lerna publish",
+    "publish:ci-prerelease": "lerna publish"
   },
   "devDependencies": {
     "lerna": "^3.10.6"
