@@ -2,7 +2,7 @@
   "name": "yanivtestdemo-server",
   "version": "2.0.10",
   "main": "index.js",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "private": false,
   "dependencies": {
     "graphql-yoga": "^1.14.7",
