@@ -1,12 +1,12 @@
 {
   "name": "yanivtestdemo-server",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "main": "index.js",
   "license": "MIT",
   "private": false,
   "dependencies": {
     "graphql-yoga": "^1.14.7",
-    "yanivtestdemo-common": "^2.0.6"
+    "yanivtestdemo-common": "^2.0.7"
   },
   "scripts": {
     "test": "echo testing server with version: $npm_package_version"
