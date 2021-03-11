@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.8](https://github.com/YanivD/yarn-workspaces-example/compare/yanivtestdemo-common@2.0.7...yanivtestdemo-common@2.0.8) (2021-03-11)
+
+
+### Features
+
+* remove console ([eda68f5](https://github.com/YanivD/yarn-workspaces-example/commit/eda68f5))
+
+
+
+
+
 ## [2.0.3](https://github.com/YanivD/yarn-workspaces-example/compare/@yanivtestdemo/common@2.0.2...@yanivtestdemo/common@2.0.3) (2021-03-11)
 
 **Note:** Version bump only for package @yanivtestdemo/common
