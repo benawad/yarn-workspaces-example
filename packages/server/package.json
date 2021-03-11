@@ -1,8 +1,9 @@
 {
   "name": "yanivtestdemo-server",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "private": false,
   "dependencies": {
     "yanivtestdemo-common": "^1.0.1",
     "graphql-yoga": "^1.14.7"
